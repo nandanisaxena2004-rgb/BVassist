@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BVAssist | Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dashboard-body">
+
+    <header class="dashboard-header">
+        <h1>🌸 BVAssist Dashboard</h1>
+        <button class="logout-btn" onclick="logout()">Logout</button>
+    </header>
+    
+
+
+    <div class="dashboard-container">
+
+        <div class="dash-card pastel-blue" onclick="goTo('timetable.html')">
+            📅 Timetable
+        </div>
+
+        <div class="dash-card pastel-purple" onclick="goTo('notifications.html')">
+    🔔 Notifications
+</div>
+
+        <div class="dash-card pastel-green">
+            🗺 Campus Roadmap
+        </div>
+
+        <div class="dash-card pastel-yellow" onclick="goTo('handouts.html')">
+    📘 Handouts
+</div>
+
+<div class="dash-card pastel-lavender" onclick="goTo('results.html')">
+    📊 Results
+</div>
+
+
+        <div class="dash-card pastel-peach" onclick="goTo('feedback.html')">
+    📝 Feedback
+</div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
